@@ -12,7 +12,4 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 VOLUME /src
 WORKDIR /src
 
-ENV DEBEMAIL="ferdinand.bachmann@yrlf.at"
-ENV DEBFULLNAME="Ferdinand Bachmann"
-
-CMD bash -i
+CMD debuild -us -uc
