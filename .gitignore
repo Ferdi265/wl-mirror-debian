@@ -1,1 +1,14 @@
 .env
+
+wl-mirror-*/debian/.debhelper/
+wl-mirror-*/debian/debhelper-build-stamp
+wl-mirror-*/debian/files
+wl-mirror-*/debian/wl-mirror.substvars
+wl-mirror-*/debian/wl-mirror/
+
+wl-mirror_*.debian.*
+wl-mirror_*.dsc
+wl-mirror_*.build
+wl-mirror_*.buildinfo
+wl-mirror_*.changes
+wl-mirror_*.deb
