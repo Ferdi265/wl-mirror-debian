@@ -1,0 +1,5 @@
+wl-mirror (0.11.3-1) unstable; urgency=medium
+
+  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+
+ -- Ferdinand Bachmann <ferdinand.bachmann@yrlf.at>  Sat, 11 Jun 2022 15:32:42 +0000
