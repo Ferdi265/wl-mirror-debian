@@ -12,4 +12,4 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 VOLUME /src
 WORKDIR /src
 
-CMD debuild -us -uc
+CMD ./build.sh
