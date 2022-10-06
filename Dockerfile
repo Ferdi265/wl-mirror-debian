@@ -9,6 +9,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 RUN apt-get update && apt-get install -y --no-install-recommends \
     cmake libwayland-dev libgles-dev scdoc
 
+RUN passwd -d root
 RUN groupadd -g 1000 user
 RUN useradd -u 1000 -g 1000 -s /bin/bash user
 
