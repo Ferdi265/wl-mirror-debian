@@ -1,15 +1,11 @@
 FROM debian:bookworm
 
 RUN apt-get update && apt-get install -y --no-install-recommends \
-    build-essential devscripts debhelper dh-make dh-cmake lintian wget \
+    build-essential wget devscripts lintian \
     && rm -rf /var/lib/apt/lists/*
 
 RUN apt-get update && apt-get install -y --no-install-recommends \
-    git apt-file bash neovim \
-    && rm -rf /var/lib/apt/lists/*
-
-RUN apt-get update && apt-get install -y --no-install-recommends \
-    cmake libwayland-dev libgles-dev scdoc \
+    debhelper-compat dh-cmake cmake scdoc libwayland-dev libgles-dev \
     && rm -rf /var/lib/apt/lists/*
 
 RUN passwd -d root
@@ -21,4 +17,4 @@ WORKDIR /src
 
 USER user
 
-CMD ./scripts/build.sh
+CMD ./build.sh
