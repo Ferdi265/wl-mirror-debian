@@ -1,13 +1,16 @@
 FROM debian:bookworm
 
 RUN apt-get update && apt-get install -y --no-install-recommends \
-    build-essential devscripts debhelper dh-make dh-cmake lintian
+    build-essential devscripts debhelper dh-make dh-cmake lintian wget \
+    && rm -rf /var/lib/apt/lists/*
 
 RUN apt-get update && apt-get install -y --no-install-recommends \
-    git apt-file bash neovim
+    git apt-file bash neovim \
+    && rm -rf /var/lib/apt/lists/*
 
 RUN apt-get update && apt-get install -y --no-install-recommends \
-    cmake libwayland-dev libgles-dev scdoc
+    cmake libwayland-dev libgles-dev scdoc \
+    && rm -rf /var/lib/apt/lists/*
 
 RUN passwd -d root
 RUN groupadd -g 1000 user
@@ -18,4 +21,4 @@ WORKDIR /src
 
 USER user
 
-CMD ./build.sh
+CMD ./scripts/build.sh
