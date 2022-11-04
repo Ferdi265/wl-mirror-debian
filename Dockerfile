@@ -1,4 +1,5 @@
-FROM debian:bookworm
+ARG BASE=debian:bookworm
+FROM $BASE
 
 RUN apt-get update && apt-get install -y --no-install-recommends \
     build-essential wget devscripts lintian \
