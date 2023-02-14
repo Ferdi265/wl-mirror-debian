@@ -3,7 +3,7 @@ Section: x11
 Priority: optional
 Maintainer: Ferdinand Bachmann <ferdinand.bachmann@yrlf.at>
 Build-Depends: debhelper-compat (= 13), dh-cmake, cmake (>= 3.18), scdoc (>= 1.11.2) <!nodoc>, libwayland-dev, libgles-dev
-Standards-Version: 4.5.1
+Standards-Version: 4.6.1.0
 Homepage: https://github.com/Ferdi265/wl-mirror
 Vcs-Browser: https://github.com/Ferdi265/wl-mirror-debian
 Vcs-Git: https://github.com/Ferdi265/wl-mirror-debian.git
