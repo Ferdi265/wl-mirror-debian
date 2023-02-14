@@ -6,6 +6,7 @@ mkdir -p build/ && cd build/
 VERSION="${VERSION:-0.12.2}"
 if [[ ! -f "wl-mirror_$VERSION.orig.tar.gz" ]]; then
     wget "https://github.com/Ferdi265/wl-mirror/releases/download/v$VERSION/wl-mirror-$VERSION.tar.gz" -O "wl-mirror_${VERSION}.orig.tar.gz"
+    wget "https://github.com/Ferdi265/wl-mirror/releases/download/v$VERSION/wl-mirror-$VERSION.tar.gz.sig" -O "wl-mirror_${VERSION}.orig.tar.gz.sig"
 fi
 
 # prepare source package
