@@ -5,9 +5,8 @@ This repo contains the debian source package for
 
 Debian Mentors page: [wl-mirror](https://mentors.debian.net/package/wl-mirror/)
 
-This is still very WIP and will probably take a while to be done. Currently
-only builds without lintian warnings on bookworm since scdoc on bullseye still
-has a bug that breaks the wl-mirror man page.
+First supported Debian version is bookworm, since scdoc on bullseye has a bug
+that breaks the wl-mirror man page.
 
 ## Building on Debian
 
