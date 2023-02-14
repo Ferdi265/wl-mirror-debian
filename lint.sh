@@ -3,7 +3,7 @@
 cd build/
 
 # lint debs
-for f in *.deb; do
+for f in *.dsc *.changes *.deb; do
     echo ">> $f"
-    lintian "$f" || true
+    lintian -I -E "$f" || true
 done
