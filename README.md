@@ -13,6 +13,7 @@ that breaks the wl-mirror man page.
 - install `build-essential`, `wget`, `devscripts`, and `lintian`
 - install `debhelper-compat`, `dh-cmake`, `cmake`, `scdoc`, `libwayland-dev`, and `libgles-dev`
 - run `./build.sh`
+- run `./lint.sh` for lintian
 
 Environment variables such as `DEBFULLNAME` and `DEBEMAIL` are expected to be
 already set by the user. Set `VERSION` to override the `wl-mirror` release to
@@ -26,5 +27,8 @@ expected to be signed by the user using `debsign`.
 ## Building on non-Debian
 
 - run `./docker.sh` or `./docker.sh --base debian:RELEASE` (e.g. `debian:bookworm`)
+- run `./docker.sh ./lint.sh` for lintian
+- run `./docker.sh bash` to get a shell in the container
 
-Environment variables are taken from `.env`.
+Environment variables are taken from `.env`. The current directory is mounted
+into the container.
