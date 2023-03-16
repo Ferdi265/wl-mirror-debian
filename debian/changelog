@@ -1,5 +1,5 @@
-wl-mirror (0.13.0-1) unstable; urgency=medium
+wl-mirror (0.13.1-1) unstable; urgency=medium
 
   * Initial release (Closes: #1012684)
 
- -- Ferdinand Bachmann <ferdinand.bachmann@yrlf.at>  Fri, 24 Feb 2023 17:49:42 +0000
+ -- Ferdinand Bachmann <ferdinand.bachmann@yrlf.at>  Thu, 16 Mar 2023 16:23:42 +0000

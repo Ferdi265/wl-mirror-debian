@@ -6,7 +6,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     && rm -rf /var/lib/apt/lists/*
 
 RUN apt-get update && apt-get install -y --no-install-recommends \
-    debhelper-compat dh-cmake cmake scdoc libwayland-dev libgles-dev \
+    debhelper-compat dh-cmake cmake scdoc pkg-config libwayland-dev libgles-dev \
     && rm -rf /var/lib/apt/lists/*
 
 RUN passwd -d root
