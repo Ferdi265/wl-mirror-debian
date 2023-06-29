@@ -1,4 +1,4 @@
-ARG BASE=debian:bookworm
+ARG BASE=debian:trixie
 FROM $BASE
 
 RUN apt-get update && apt-get install -y --no-install-recommends \
