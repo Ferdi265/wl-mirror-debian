@@ -1,3 +1,10 @@
+wl-mirror (0.13.2-1) unstable; urgency=medium
+
+  * Document --freeze options in the manual pages
+  * Fix typos in debug log messages
+
+ -- Ferdinand Bachmann <ferdinand.bachmann@yrlf.at>  Fri, 11 Aug 2023 14:09:58 +0200
+
 wl-mirror (0.13.1-1) unstable; urgency=medium
 
   * Initial release (Closes: #1012684)
