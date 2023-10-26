@@ -1,7 +1,8 @@
 wl-mirror (0.14.1-1) unstable; urgency=medium
 
   * Performed some refactors in preparation for XDG Desktop Portal Support
-  * Fixed potentially incorrect rendering when the image contains an alpha channel
+  * Fixed potentially incorrect rendering when the image contains an alpha
+    channel
   * Fixed an incorrect log message in the screencopy backend
   * Clarified when scdoc is required in the README
 
