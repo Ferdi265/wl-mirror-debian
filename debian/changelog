@@ -1,3 +1,12 @@
+wl-mirror (0.15.0-1) unstable; urgency=medium
+
+  * Updated wayland-protocols to 1.32 and wlr-protocols to the latest version
+  * Fixed some build system issues where changed files would not get rebuilt
+  * Added --fullscreen and --fullscreen-output options for starting wl-mirror
+    in fullscreen and setting the output to fullscreen to
+
+ -- Ferdinand Bachmann <ferdinand.bachmann@yrlf.at>  Thu, 28 Dec 2023 20:39:38 +0100
+
 wl-mirror (0.14.2-1) unstable; urgency=medium
 
   * Fixed unclear licensing terms in the README. This project is now licensed
