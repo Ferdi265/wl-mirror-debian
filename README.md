@@ -32,3 +32,13 @@ expected to be signed by the user using `debsign`.
 
 Environment variables are taken from `.env`. The current directory is mounted
 into the container.
+
+## Tag Structure
+
+This repo contains tags of the format `v{UPSTREAM_VERSION}` for the first
+commit that updates the Debian package to that specific version. Once a
+specific version of `wl-mirror` is uploaded to the Debian archives I will
+additionally tag the corresponding commit with `debian/{DEBIAN_VERSION}`.
+
+Extracting a `.debian.tar.xz` archive at the corresponding `debian/` tagged
+commit should result in no diffs.
