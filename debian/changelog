@@ -1,3 +1,12 @@
+wl-mirror (0.16.0-1) unstable; urgency=medium
+
+  * Implemented fractional scale support
+  * Made scaling and scaling filter options independent
+  * Added --scaling cover option for cropping image to fit
+  * Changed --scaling exact to also perform exact multiple downscaling
+
+ -- Ferdinand Bachmann <ferdinand.bachmann@yrlf.at>  Tue, 23 Jan 2024 17:25:34 +0100
+
 wl-mirror (0.15.0-1) unstable; urgency=medium
 
   * Updated wayland-protocols to 1.32 and wlr-protocols to the latest version
