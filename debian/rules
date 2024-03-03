@@ -16,4 +16,5 @@ override_dh_auto_configure:
 	dh_auto_configure -- \
 		-DBUILD_DOCUMENTATION=$(DOCS) \
 		-DINSTALL_DOCUMENTATION=$(DOCS) \
+		-DINSTALL_EXAMPLE_SCRIPTS=ON \
 		$(NULL)
