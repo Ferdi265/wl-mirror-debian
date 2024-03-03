@@ -1,3 +1,11 @@
+wl-mirror (0.16.2-1) unstable; urgency=medium
+
+  * Added wl-present, a script for managing presentation sessions with
+    wl-mirror that allows interactive control of the output or region that is
+    mirrored (Closes: #1065245)
+
+ -- Ferdinand Bachmann <ferdinand.bachmann@yrlf.at>  Sat, 02 Mar 2024 13:09:22 +0100
+
 wl-mirror (0.16.1-1) unstable; urgency=medium
 
   * Fixed regions being incorrectly applied on outputs with fractional scale
