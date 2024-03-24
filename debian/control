@@ -22,6 +22,7 @@ Package: wl-present
 Architecture: all
 Depends: wl-mirror, bash (>= 5.2), slurp, wofi | wmenu | rofi | dmenu, ${misc:Depends}
 Recommends: pipectl
-Description: command-line tool for managing presentation sessions with
- wl-mirror that allows interactive control of the output or region that is
- mirrored.
+Description: command-line tool for managing wl-mirror presentation sessions
+ wl-present is a command-line tool for managing wl-mirror presentation
+ sessions. wl-present allows interactive control of the output or region that
+ is mirrored in wl-mirror.

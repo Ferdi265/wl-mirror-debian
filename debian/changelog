@@ -1,3 +1,10 @@
+wl-mirror (0.16.2-2) unstable; urgency=medium
+
+  * Fixed the wl-present package description breaking the guidelines on binary
+    package descriptions (Closes: #1067597)
+
+ -- Ferdinand Bachmann <ferdinand.bachmann@yrlf.at>  Sun, 24 Mar 2024 11:30:20 +0100
+
 wl-mirror (0.16.2-1) unstable; urgency=medium
 
   * Added wl-present, a script for managing presentation sessions with
