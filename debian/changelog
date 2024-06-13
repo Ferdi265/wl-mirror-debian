@@ -1,3 +1,11 @@
+wl-mirror (0.16.3-1) unstable; urgency=medium
+
+  * Fixed wl-mirror crashing when more than one seat exists in the session
+  * Simplified handling of WL_PRESENT_DMENU in wl-present
+  * Added unset-region and unfullscreen options to wl-present
+
+ -- Ferdinand Bachmann <ferdinand.bachmann@yrlf.at>  Thu, 13 Jun 2024 20:09:40 +0200
+
 wl-mirror (0.16.2-2) unstable; urgency=medium
 
   * Fixed the wl-present package description breaking the guidelines on binary
