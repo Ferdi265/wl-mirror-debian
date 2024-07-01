@@ -1,3 +1,16 @@
+wl-mirror (0.16.4-1) unstable; urgency=medium
+
+  * Allow specifying additional options after wl-present mirror. This allows
+    starting wl-mirror directly in fullscreen via wl-present, e.g. wl-present
+    mirror --fullscreen-output HDMI-A-1 --fullscreen.
+  * Allow overriding slurp in wl-present via WL_PRESENT_SLURP environment
+    variable.
+  * Automatically detect fuzzel as a dmenu replacement in wl-present
+  * Add kanshi configuration example to README
+  * Update wl-present man page
+
+ -- Ferdinand Bachmann <ferdinand.bachmann@yrlf.at>  Mon, 1 Jul 2024 15:40:01 +0200
+
 wl-mirror (0.16.3-1) unstable; urgency=medium
 
   * Fixed wl-mirror crashing when more than one seat exists in the session
