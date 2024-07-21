@@ -21,3 +21,103 @@ License: GPL-3+
  .
  On Debian systems, the complete text of the GNU General
  Public License version 3 can be found in "/usr/share/common-licenses/GPL-3".
+
+Files: proto/wayland-protocols/*
+Copyright: © 2008-2013      Kristian Høgsberg
+           © 2010-2013,2017 Intel Corporation
+           © 2013-2018      Collabora, Ltd.
+           © 2013           Rafael Antognolli
+           © 2013           Jasper St. Pierre
+           © 2014-2015      Jonas Ådahl
+           © 2014-2015      Jason Ekstrand
+           © 2014           Stephen "Lyude" Chandler Paul
+           © 2015-2018      Red Hat Inc.
+           © 2015, 2016     Jan Arne Petersen
+           © 2015-2017      Samsung Electronics Co., Ltd
+           © 2016           The Chromium Authors.
+           © 2016           Yong Bakos
+           © 2018           Purism SPC
+           © 2018           Simon Ser
+License: Expat
+
+Files: proto/wayland-protocols/staging/ext-foreign-toplevel-list/ext-foreign-toplevel-list-v1.xml
+       proto/wayland-protocols/unstable/text-input/text-input-unstable-v3.xml
+Copyright: © 2012, 2013 Intel Corporation
+           © 2015, 2016 Jan Arne Petersen
+           © 2017, 2018 Red Hat, Inc.
+           © 2018       Purism SPC
+           © 2018       Ilia Bozhinov
+           © 2020       Isaac Freund
+           © 2022       wb9688
+           © 2023       i509VCB
+License: HPND-sell-variant
+
+Files: proto/wlr-protocols/*
+Copyright: © 2018 Simon Ser
+           © 2018 Rostislav Pehlivanov
+           © 2019 Andri Yngvason
+           © 2019 Purism SPC
+           © 2019 Josef Gajdusek
+License: Expat
+
+Files: proto/wlr-protocols/unstable/wlr-data-control-unstable-v1.xml
+       proto/wlr-protocols/unstable/wlr-foreign-toplevel-management-unstable-v1.xml
+       proto/wlr-protocols/unstable/wlr-gamma-control-unstable-v1.xml
+       proto/wlr-protocols/unstable/wlr-input-inhibitor-unstable-v1.xml
+       proto/wlr-protocols/unstable/wlr-layer-shell-unstable-v1.xml
+       proto/wlr-protocols/unstable/wlr-output-management-unstable-v1.xml
+Copyright: © 2015 Giulio camuffo
+           © 2018      Simon Ser
+           © 2018      Ilia Bozhinov
+           © 2017,2018 Drew DeVault
+           © 2019      Ivan Molodetskikh
+           © 2019      Purism SPC
+License: HPND-sell-variant
+
+License: Expat
+ Permission is hereby granted, free of charge, to any person obtaining a
+ copy of this software and associated documentation files (the "Software"),
+ to deal in the Software without restriction, including without limitation
+ the rights to use, copy, modify, merge, publish, distribute, sublicense,
+ and/or sell copies of the Software, and to permit persons to whom the
+ Software is furnished to do so, subject to the following conditions:
+ .
+ The above copyright notice and this permission notice (including the next
+ paragraph) shall be included in all copies or substantial portions of the
+ Software.
+ .
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.  IN NO EVENT SHALL
+ THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+ FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+ DEALINGS IN THE SOFTWARE.
+ .
+ ---
+ .
+ The above is the version of the MIT "Expat" License used by X.org:
+ .
+    http://cgit.freedesktop.org/xorg/xserver/tree/COPYING
+
+License: HPND-sell-variant
+ Permission to use, copy, modify, distribute, and sell this
+ software and its documentation for any purpose is hereby granted
+ without fee, provided that the above copyright notice appear in
+ all copies and that both that copyright notice and this permission
+ notice appear in supporting documentation, and that the name of
+ the copyright holders not be used in advertising or publicity
+ pertaining to distribution of the software without specific,
+ written prior permission.  The copyright holders make no
+ representations about the suitability of this software for any
+ purpose.  It is provided "as is" without express or implied
+ warranty.
+ .
+ THE COPYRIGHT HOLDERS DISCLAIM ALL WARRANTIES WITH REGARD TO THIS
+ SOFTWARE, INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND
+ FITNESS, IN NO EVENT SHALL THE COPYRIGHT HOLDERS BE LIABLE FOR ANY
+ SPECIAL, INDIRECT OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
+ WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN
+ AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION,
+ ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF
+ THIS SOFTWARE.
