@@ -1,3 +1,12 @@
+wl-mirror (0.16.5-2) unstable; urgency=medium
+
+  * Depend on wayland-protocols instead of using the upstream bundled
+    wayland-protocols.
+  * Fix wayland-protocols and wlr-protocols not being credited in the
+    copyright file.
+
+ -- Ferdinand Bachmann <ferdinand.bachmann@yrlf.at>  Fri, 26 Jul 2024 18:03:43 +0200
+
 wl-mirror (0.16.5-1) unstable; urgency=medium
 
   * Fix wl-mirror consuming 100% CPU on one core when using the --stream (or
