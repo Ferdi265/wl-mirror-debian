@@ -2,4 +2,4 @@ version=4
 opts="\
     searchmode=plain, \
     pgpsigurlmangle=s%$%.sig%" \
-https://api.github.com/repos/Ferdi265/@PACKAGE@/releases https://github.com/Ferdi265/@PACKAGE@/releases/download/v@ANY_VERSION@/@PACKAGE@-(?:\d[\-+\.:\~\da-zA-Z]*)@ARCHIVE_EXT@
+https://api.github.com/repos/Ferdi265/@PACKAGE@/releases https://github.com/Ferdi265/@PACKAGE@/releases/download/v@ANY_VERSION@/@PACKAGE@-(?:\d[\-+\.:\~\da-zA-Z]*)-nowlp@ARCHIVE_EXT@

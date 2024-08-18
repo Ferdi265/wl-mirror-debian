@@ -22,36 +22,6 @@ License: GPL-3+
  On Debian systems, the complete text of the GNU General
  Public License version 3 can be found in "/usr/share/common-licenses/GPL-3".
 
-Files: proto/wayland-protocols/*
-Copyright: © 2008-2013      Kristian Høgsberg
-           © 2010-2013,2017 Intel Corporation
-           © 2013-2018      Collabora, Ltd.
-           © 2013           Rafael Antognolli
-           © 2013           Jasper St. Pierre
-           © 2014-2015      Jonas Ådahl
-           © 2014-2015      Jason Ekstrand
-           © 2014           Stephen "Lyude" Chandler Paul
-           © 2015-2018      Red Hat Inc.
-           © 2015, 2016     Jan Arne Petersen
-           © 2015-2017      Samsung Electronics Co., Ltd
-           © 2016           The Chromium Authors.
-           © 2016           Yong Bakos
-           © 2018           Purism SPC
-           © 2018           Simon Ser
-License: Expat
-
-Files: proto/wayland-protocols/staging/ext-foreign-toplevel-list/ext-foreign-toplevel-list-v1.xml
-       proto/wayland-protocols/unstable/text-input/text-input-unstable-v3.xml
-Copyright: © 2012, 2013 Intel Corporation
-           © 2015, 2016 Jan Arne Petersen
-           © 2017, 2018 Red Hat, Inc.
-           © 2018       Purism SPC
-           © 2018       Ilia Bozhinov
-           © 2020       Isaac Freund
-           © 2022       wb9688
-           © 2023       i509VCB
-License: HPND-sell-variant
-
 Files: proto/wlr-protocols/*
 Copyright: © 2018 Simon Ser
            © 2018 Rostislav Pehlivanov
