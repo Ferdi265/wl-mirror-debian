@@ -1,3 +1,16 @@
+wl-mirror (0.17.0-1) unstable; urgency=medium
+
+  * Add a --title option to allow custom window titles with support for
+    placeholders such as {target_output}. Thank you @mazunki!
+  * Add support for controlling multiple simultaneous wl-present sessions
+    using the WL_PRESENT_PIPE_NAME env var or --name option
+  * Improve wl-present behaviour when not having pipectl installed
+  * Fix wl-present behaving inconsistently when running multiple sessions at
+    once.
+  * Upstream release tarballs are now bit-by-bit reproducible from git.
+
+ -- Ferdinand Bachmann <ferdinand.bachmann@yrlf.at>  Mon, 14 Oct 2024 21:52:06 +0200
+
 wl-mirror (0.16.5-2) unstable; urgency=medium
 
   * Depend on wayland-protocols instead of using the upstream bundled
