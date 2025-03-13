@@ -1,3 +1,24 @@
+wl-mirror (0.18.0-1) unstable; urgency=medium
+
+  * Add a new screencopy-dmabuf backent that uses DMA-BUFs instead of shared
+    memory.
+  * Changed the screencopy backend to automatically choose screencopy-dmabuf
+    over screencopy-shm when available.
+  * Added new extcopy-dmabuf and extcopy-shm backends that use
+    ext-image-copy-capture-v1.
+  * Also added an extcopy backend that automatically chooses extcopy-dmabuf
+    over extcopy-shm when available.
+  * Fix a potential use-after-free when using --title together with --stream.
+    Thank you @danielrainer!
+  * Rework stream input handling to be less error-prone. Thank you
+    @danielrainer!
+  * Fixed missing man-page documentation for --title.
+  * Added a dependency on libdrm and libgbm for DMA-BUF allocation.
+  * Enabled libdecor for decoration on compositors without server-side
+    decoration.
+
+ -- Ferdinand Bachmann <ferdinand.bachmann@yrlf.at>  Thu, 13 Mar 2025 16:34:52 +0100
+
 wl-mirror (0.17.0-1) unstable; urgency=medium
 
   * Add a --title option to allow custom window titles with support for
