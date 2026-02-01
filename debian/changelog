@@ -1,3 +1,14 @@
+wl-mirror (0.18.4-1) unstable; urgency=medium
+
+  * Fixed wl-mirror exiting with an error when no libdecor decoration plugins
+    are installed. (Closes: #1126515)
+  * Fixed custom titles from --title only applying after the window is created
+    and not during initial configure.
+  * Fix wl-mirror crashing on some compositors with wp_viewport error "source
+    rectangle out of buffer bounds"
+
+ -- Ferdinand Bachmann <ferdinand.bachmann@yrlf.at>  Sun, 01 Feb 2026 16:49:00 +0100
+
 wl-mirror (0.18.0-1) unstable; urgency=medium
 
   * Add a new screencopy-dmabuf backent that uses DMA-BUFs instead of shared
