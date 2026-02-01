@@ -12,7 +12,7 @@ Rules-Requires-Root: no
 Package: wl-mirror
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Recommends: wl-present
+Recommends: wl-present, libdecor-0-plugin-1-gtk | libdecor-0-plugin-1-cairo
 Description: output-mirroring tool for wlroots-based Wayland desktops
  wl-mirror is a tool to add output mirroring to sway and other wlroots-based
  Wayland compositors. wl-mirror requires the export-dmabuf or screencopy
