@@ -1,3 +1,10 @@
+wl-mirror (0.18.5-1) unstable; urgency=medium
+
+  * Fixed wl-mirror exiting with an error when initial surface configure takes
+    too long.
+
+ -- Ferdinand Bachmann <ferdinand.bachmann@yrlf.at>  Mon, 09 Feb 2026 23:37:17 +0100
+
 wl-mirror (0.18.4-1) unstable; urgency=medium
 
   * Fixed wl-mirror exiting with an error when no libdecor decoration plugins
